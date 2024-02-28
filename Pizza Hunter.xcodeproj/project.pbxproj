@@ -11,6 +11,7 @@
 		08AF794B2B8F8A0F00A0DC1B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AF794A2B8F8A0F00A0DC1B /* ContentView.swift */; };
 		08AF794D2B8F8A1100A0DC1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08AF794C2B8F8A1100A0DC1B /* Assets.xcassets */; };
 		08AF79502B8F8A1100A0DC1B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08AF794F2B8F8A1100A0DC1B /* Preview Assets.xcassets */; };
+		08AF79572B8F8B1B00A0DC1B /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AF79562B8F8B1B00A0DC1B /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		08AF794A2B8F8A0F00A0DC1B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		08AF794C2B8F8A1100A0DC1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08AF794F2B8F8A1100A0DC1B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		08AF79562B8F8B1B00A0DC1B /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		08AF79472B8F8A0F00A0DC1B /* Pizza Hunter */ = {
 			isa = PBXGroup;
 			children = (
+				08AF79562B8F8B1B00A0DC1B /* LocationManager.swift */,
 				08AF79482B8F8A0F00A0DC1B /* Pizza_HunterApp.swift */,
 				08AF794A2B8F8A0F00A0DC1B /* ContentView.swift */,
 				08AF794C2B8F8A1100A0DC1B /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			files = (
 				08AF794B2B8F8A0F00A0DC1B /* ContentView.swift in Sources */,
 				08AF79492B8F8A0F00A0DC1B /* Pizza_HunterApp.swift in Sources */,
+				08AF79572B8F8B1B00A0DC1B /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +273,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Pizza Hunter/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires the use of Location Services";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +302,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Pizza Hunter/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires the use of Location Services";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
